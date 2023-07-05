@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign_up</title>
+    <style>
+        .inp_itm {
+            margin: 20px;
+        }
+        
+        .form_part {
+            width: fit-content;
+            margin: 10px auto;
+        }
+        
+        .headingpart {
+            width: fit-content;
+            margin: 10px auto;
+        }
+        
+        .root {
+            margin-top: 40px;
+        }
+        
+        .gen {
+            display: flex;
+            align-items: center;
+            margin-top: -21px;
+            margin-bottom: -21px;
+        }
+        
+        .submit_btn {
+            width: -webkit-fill-available;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="root">
+        <div class="headingpart">
+            <h1>Sign_up</h1>
+        </div>
+        <div class="form_part">
+            <form>
+                <div class="inp_itm">
+                    <label for="Username">Username : </label>
+                    <input id="Username" name="Username" placeholder="Enter Username" type="text">
+                </div>
+                <div class="inp_itm">
+                    <label for="Fullname">Fullname : </label>
+                    <input id="Fullname" name="Fullname" placeholder="Enter Fullname" type="text">
+                </div>
+                <div class="inp_itm">
+                    <label for="Password">Password : </label>
+                    <input id="Password" name="Password" placeholder="Enter Password" type="password">
+                </div>
+                <div class="inp_itm">
+                    <label for="Confirm_Password">Confirm Password : </label>
+                    <input id="Confirm_Password" name="Confirm_Password" placeholder="Enter Confirm Password" type="password">
+                </div>
+                <div class="inp_itm">
+                    <label for="Phone_No">Phone No : </label>
+                    <input id="Phone_No" name="Phone_No" placeholder="Enter Phone No" type="text">
+                </div>
+                <div class="inp_itm">
+                    <label for="Email">Email : </label>
+                    <input id="Email" name="Email" placeholder="Enter Email" type="text">
+                </div>
+
+                <div class="inp_itm">
+                    <span>State : </span>
+                    <select name="State" id="State">
+                        <option value="">- - - Select Your State - - -</Source>
+                        </option>
+                        <option value="Andhra_Pradesh">Andhra Pradesh</option>
+                        <option value="Arunachal_Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal_Pradesh">Himachal Pradesh</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madhya_Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Odisha">Odisha</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil_Nadu">Tamil Nadu</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttar_Pradesh">Uttar Pradesh</option>
+                        <option value="Uttarakhand">Uttarakhand</option>
+                        <option value="West_Bengal">West Bengal</option>
+                    </select>
+                </div>
+                <div class="inp_itm gen">
+                    <p>Gender : </p>
+                    <input class="gen" type="radio" id="male" name="Gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input class="gen" type="radio" id="female" name="Gender" value="female">
+                    <label for="female">Female</label><br>
+                </div>
+                <div class="inp_itm">
+                    <input type="checkbox" id="Agreement" name="Agreement" value="Agreement">
+                    <label for="Agreement">You Agree With Agreement</label><br>
+                </div>
+
+                <div class="inp_itm">
+                    <input class="submit_btn" type="submit" placeholder="submit">
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+<script src="sign_up.js"></script>
+
+</html>
